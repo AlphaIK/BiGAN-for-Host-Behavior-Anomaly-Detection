@@ -19,5 +19,6 @@ traditional algorithm文件夹中存放其他传统异常检测模型的代码�
 
 代码运行前需要解压文件夹data中cmdline.rar至当前文件夹。
 输入如下命令行即可运行：
-	"python main.py bigan cmdline run"# BiGAN-for-Host-Behavior-Anomaly-Detection
+	"python main.py bigan cmdline run"
+# BiGAN-for-Host-Behavior-Anomaly-Detection
 # BiGAN-for-Host-Behavior-Anomaly-Detection
