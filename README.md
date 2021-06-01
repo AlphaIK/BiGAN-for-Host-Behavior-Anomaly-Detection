@@ -1,7 +1,7 @@
-本代码是基于BiGAN的主机行为异常检测实现，训练BiGAN模型并应用不同loss函数来对主机行为进行异常检测。
+#本代码是基于BiGAN的主机行为异常检测实现，训练BiGAN模型并应用不同loss函数来对主机行为进行异常检测。
 
 Dependencies:
-	Python 3.7/n
+	Python 3.7
 	TensorFlow 1.14.0
 	numpy 1.19.5
 	matplotlib 3.2.2
@@ -20,5 +20,4 @@ traditional algorithm文件夹中存放其他传统异常检测模型的代码�
 代码运行前需要解压文件夹data中cmdline.rar至当前文件夹。
 输入如下命令行即可运行：
 	"python main.py bigan cmdline run"
-# BiGAN-for-Host-Behavior-Anomaly-Detection
-# BiGAN-for-Host-Behavior-Anomaly-Detection
+
