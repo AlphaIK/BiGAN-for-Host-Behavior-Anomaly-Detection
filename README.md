@@ -9,7 +9,7 @@
 
 **data文件夹中存放实验数据集：**
 
-	cmdline_train.npy和cmdline_test.npy分别为模型训练集与测试集；
+	cmdline_train.npy和cmdline_test.npy分别为模型训练集与测试集；	//代码运行前需要解压文件夹中cmdline.rar至当前文件夹。
 	cmdline.py用于读取数据集。
 	
 **bigan文件夹中存放BiGAN模型代码：**
@@ -23,9 +23,7 @@
 	LOF_cmd.py 局部异常因子算法；
 	Robustcovariance_cmd 协方差估计算法。
 
-
-**代码运行前需要解压文件夹data中cmdline.rar至当前文件夹。
-输入如下命令行即可运行：**
+**输入如下命令行即可运行：**
 
 	"python main.py bigan cmdline run"
 
