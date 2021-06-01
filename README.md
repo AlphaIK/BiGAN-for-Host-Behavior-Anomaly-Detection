@@ -1,7 +1,7 @@
 本代码是基于BiGAN的主机行为异常检测实现，训练BiGAN模型并应用不同loss函数来对主机行为进行异常检测。
 
 Dependencies:
-	Python 3.7
+	Python 3.7/n
 	TensorFlow 1.14.0
 	numpy 1.19.5
 	matplotlib 3.2.2
