@@ -2,7 +2,7 @@
 
 **Dependencies:**
 
-	Python 3.7
+	Python 3.6
 	TensorFlow 1.14.0
 	numpy 1.19.5
 	matplotlib 3.2.2
