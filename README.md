@@ -30,22 +30,23 @@ Folders:
 Run:
 --
 **输入如下命令行即可运行：**
-
-		python main.py bigan cmdline run
+```python
+python main.py bigan cmdline run
+```
 	
 **positional arguments:**
 
-  		{model}               the name of the model you want to run (bigan)
-  		{cmdline}		the name of the dataset you want to run the experiments on
-  		{run}                 train the model or evaluate it
+  	{model}               the name of the model you want to run (bigan)
+  	{cmdline}		the name of the dataset you want to run the experiments on
+  	{run}                 train the model or evaluate it
 
 **optional arguments:**
 
- 		-h, --help            show this help message and exit
-  		--epochs [EPOCHS]     number of epochs you want to train the dataset on
- 		--w [W]               weight for the sum of the mapping loss function
-  		--rd [RD]             random_seed
-  		--loss [{crosse,w,wgp,ls,hinge}]
-                        	      the loss function in the model
-  		--plot [{n,N,y,Y}]    print dis/enc/gen loss(y/n)
+ 	-h, --help            show this help message and exit
+  	--epochs [EPOCHS]     number of epochs you want to train the dataset on
+ 	--w [W]               weight for the sum of the mapping loss function
+  	--rd [RD]             random_seed
+  	--loss [{crosse,w,wgp,ls,hinge}]
+                              the loss function in the model
+  	--plot [{n,N,y,Y}]    print dis/enc/gen loss(y/n)
 
